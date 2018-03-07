@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> See The World
+  </title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="CSS/styles.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Patua+One" rel="stylesheet">
+<script src="Java/Java.js"></script>
+</head>
+
+<body>
+  <a href="index.html"><div id="header">
+    <img id="headerimage" src="Images/header.png" alt="Image Link Broken"/>
+    <h1>See The World</h1>
+    <h2>a mental health resource</h2>
+  </div>
+</a>
+
+
+
+  <div id="wrapper">
+    <div id="siteinfoback">
+      <div id="siteinfographic">
+        <img width="450px" src="Images/graphic1.png" alt="Image Link Broken"/>
+      </div>
+      <div id="siteinfo">
+        <h3>About This Site</h3>
+        <p>How we think about the world affects how we experience the world. For many with anxiety or depression, the view of the world is distorted by negative assumption. The following is a guide to identifying the ways in which you think and how you can challenge these ideas.</p>
+        <p>This is not a stand-in for real therapy, and it is very important that you seek any medical help you may need. It is, however, a simple aide in getting started understanding and reshaping how you think. The following are tools to identify what negative thought patterns you might be vulnerable to.</p>
+      </div>
+    </div>
+
+
+
+    <div id="navbar">
+      <div id="fixedbit" class="buttony">
+        <h2>Today I feel...</h2>
+      </div>
+      <div id="dropdownbutton" class="buttony" onclick="dropper2()">
+      <img class="dropimg" src="Images/drop.png"/>
+      </div>
+      <div class="dropdowncontent">
+        <ul>
+         <li><a onclick="fadebuttonangry();fadeout();">Angry</a></li>
+         <li><a onclick="fadebuttonguilty();fadeout();" >Guilty</a></li>
+         <li><a  onclick="fadebuttonanxious();fadeout();">Anxious</a></li>
+         <li><a  onclick="fadebuttonscared();fadeout();">Scared</a></li>
+         <li><a  onclick="fadebuttonsad();fadeout();">Sad</a></li>
+      </ul>
+      </div>
+    </div>
+
+
+
+<div id="iconcontainer">
+<div class="row">
+
+  <div class="column angry sad">
+    <div class="button">
+      <a href="Change.html"><img src="Images/Change.png" alt="Image Link Broken"/>
+      <div class="title">
+        <h4>Fallacies of Change</h4>
+      </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="sad anxious column">
+    <div class="button">
+      <a href="Filtering.html"><img src="Images/Filtering.png" alt="Image Link Broken"/>
+      <div class="title">
+        <h4>Filtering</h4>
+      </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="column guilty angry">
+    <div class="button">
+      <a href="Shoulds.html"><img src="Images/Shoulds.png" alt="Image Link Broken"/>
+      <div class="title">
+        <h4>Shoulds</h4>
+      </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+  <div class="row">
+
+    <div class="column sad guilty">
+      <div class="button">
+        <a href="Personalization.html"><img src="Images/Personalization.png" alt="Image Link Broken"/>
+        <div class="title">
+          <h4>Personalization</h4>
+        </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="column angry sad">
+      <div class="button">
+        <a href="Fairness.html"><img src="Images/Fairness.png" alt="Image Link Broken"/>
+        <div class="title">
+          <h4>Fallacy of Fairness</h4>
+        </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="column angry anxious" id="karmacolumn">
+      <div class="button">
+        <a href="Karma.html"><img id="karmaimage" src="Images/Karma.png" alt="Image Link Broken"/>
+        <div id="karmatitle" class="title">
+          <h4>Karma</h4>
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+    <div class="row">
+
+      <div class="column anxious scared">
+        <div class="button">
+          <a href="Conclusions.html"><img src="Images/JumpingtoConclusions.png" alt="Image Link Broken"/>
+          <div class="title">
+            <h4>Jumping to Conlusions</h4>
+          </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="column scared sad">
+        <div class="button">
+          <a href="Catastrophizing.html"><img src="Images/Catastrophizing.png" alt="Image Link Broken"/>
+          <div class="title">
+            <h4>Catastrophizing</h4>
+          </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="column guilty scared">
+        <div class="button">
+          <a href="Polarized.html"><img src="Images/Polarized.png" alt="Image Link Broken"/>
+          <div class="title">
+            <h4>Polarization</h4>
+          </div>
+          </a>
+        </div>
+      </div>
+  </div>
+
+      <div class="row" id="specialrow">
+
+        <div class="column angry anxious scared">
+          <div class="button">
+            <a href="Right.html"><img src="Images/Right.png" alt="Image Link Broken"/>
+            <div class="title">
+              <h4>Always Right</h4>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="column guilty anxious">
+          <div class="button">
+            <a href="Control.html"><img src="Images/Control.png" alt="Image Link Broken"/>
+            <div class="title">
+              <h4>Control Fallacies</h4>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="column angry anxious">
+          <div class="button">
+            <a href="Blaming.html"><img src="Images/Blaming.png" alt="Image Link Broken"/>
+            <div class="title">
+              <h4>Blaming</h4>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+        <div class="row">
+
+          <div class="column sad anxious">
+            <div class="button">
+              <a href="Emotional Reasoning.html"><img src="Images/EmotionalReasoning.png" alt="Image Link Broken"/>
+              <div class="title">
+                <h4>Emotional Reasoning</h4>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="column anxious scared sad">
+            <div class="button">
+              <a href="Label.html"><img src="Images/Label.png" alt="Image Link Broken"/>
+              <div class="title">
+                <h4>Mislabeling</h4>
+              </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="column scared anxious">
+            <div class="button">
+              <a href="Generalization.html"><img src="Images/Overgeneralization.png" alt="Image Link Broken"/>
+              <div class="title">
+                <h4>Overgeneralization</h4>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+</div>
+</div>
+
+
+<div id="footer">
+  <div id="linkcontainer">
+  <ul>
+    <li><a href="http://www.mentalhealthamerica.net/finding-therapy">Resources</a></li>
+    <li><a href="https://suicidepreventionlifeline.org/">Suicide Prevention Lifeline</a></li>
+    <li><a href="https://www.mayoclinic.org/tests-procedures/cognitive-behavioral-therapy/about/pac-20384610">About Cognitive Behavioral Therapy</a></li>
+    <li><a href="https://www.mentalhealth.gov/">MentalHealth.gov</a></li>
+  </ul>
+</div>
+</div>
+
+
+</body>
+</html>
